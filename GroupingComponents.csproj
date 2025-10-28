@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <GroupingComponents>GroupingComponents</GroupingComponents>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <Platforms>AnyCPU;x64</Platforms>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <COMReference Include="AcadmAuto">
+        <VersionMinor>0</VersionMinor>
+        <VersionMajor>1</VersionMajor>
+        <Guid>dc080254-6a47-4467-abe5-710f5e1b6412</Guid>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>false</Isolated>
+        <EmbedInteropTypes>false</EmbedInteropTypes>
+      </COMReference>
+      <COMReference Include="GEAuto">
+        <VersionMinor>0</VersionMinor>
+        <VersionMajor>2</VersionMajor>
+        <Guid>4ce4d444-cad1-4f9f-9f4b-a5c049334ca2</Guid>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>false</Isolated>
+        <EmbedInteropTypes>false</EmbedInteropTypes>
+      </COMReference>
+      <COMReference Include="AutoCAD">
+        <VersionMinor>0</VersionMinor>
+        <VersionMajor>1</VersionMajor>
+        <Guid>4d6c720c-0525-4d94-841b-6d5378a564e2</Guid>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>false</Isolated>
+        <EmbedInteropTypes>false</EmbedInteropTypes>
+      </COMReference>
+      <COMReference Include="AXDBLib">
+        <VersionMinor>0</VersionMinor>
+        <VersionMajor>1</VersionMajor>
+        <Guid>0ea72311-df28-4318-a51b-92d7fc7df50b</Guid>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>false</Isolated>
+        <EmbedInteropTypes>false</EmbedInteropTypes>
+      </COMReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoCAD.NET" Version="25.0.1" />
+    </ItemGroup>   
+
+</Project>
+<!-- End of file: acadcoreclasslib.csproj -->
