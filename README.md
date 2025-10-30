@@ -106,7 +106,7 @@ acadDocCom.Application.ZoomExtents();
 
 ### 9. Demo
 
-[demo image](demo.png)
+![demo image](demo.png)
 
 ---
 
