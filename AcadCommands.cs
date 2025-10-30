@@ -242,7 +242,7 @@ public class CommandsRegistrar : IExtensionApplication
             McadComponentViewDefinition pNewViewDef = null;
             McadComponentView pNewViewInstance = null;
             object addViews = Type.Missing;
-            object entityIds = new object[] { entId };
+            long[] entityIds = [entId];
             object targetView = Type.Missing;
             object name = "FirstView";
             try

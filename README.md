@@ -104,6 +104,10 @@ gMgr.AddNewComponentViewDefinition(out compViewDef, out compView, comp, compGeMa
 acadDocCom.Application.ZoomExtents();
 ```
 
+### 9. Demo
+
+[demo image](demo.png)
+
 ---
 
 ## Prerequisites
